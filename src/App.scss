@@ -1,0 +1,16 @@
+body {
+  background-color: #161616;
+}
+
+nav {
+  background-color: #000;
+}
+
+@media (min-width: 990px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+}

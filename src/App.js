@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import CustomNavbar from './components/CustomNavbar';
 
 const App = () => (
   <div className="App">
-    <section>Dupaaa</section>
+    <section>
+      <CustomNavbar />
+    </section>
   </div>
 );
 
